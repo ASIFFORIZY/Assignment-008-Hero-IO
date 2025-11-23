@@ -44,7 +44,7 @@ const Home = () => {
                 <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6' >
 
                     {
-                        Data.map(data => <Card data={data} ></Card>)
+                        Data.map(data => <Card key={data.id} data={data} ></Card>)
                     }
                 </div>
 
