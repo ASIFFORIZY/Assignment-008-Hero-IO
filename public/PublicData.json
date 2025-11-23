@@ -1,0 +1,506 @@
+[
+  {
+    "image": "https://i.ibb.co/dwmjRbd9/eyestetix-studio-pk-X0-E7-E8pcc-unsplash.jpg",
+    "title": "WhatsApp",
+    "companyName": "Meta",
+    "id": 1,
+    "description": "A free messaging and voice/video calling app used globally.",
+    "size": 65,
+    "reviews": 12000000,
+    "ratingAvg": 4.3,
+    "downloads": 2000,
+    "ratings": [
+      { "name": "1 star", "count": 600000 },
+      { "name": "2 star", "count": 800000 },
+      { "name": "3 star", "count": 2200000 },
+      { "name": "4 star", "count": 5000000 },
+      { "name": "5 star", "count": 5600000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/2Y73NRXC/alexander-shatov-I4p0-Fcj-DBJI-unsplash.jpg",
+    "title": "TikTok",
+    "companyName": "ByteDance",
+    "id": 2,
+    "description": "Short-form video sharing platform with viral content.",
+    "size": 90,
+    "reviews": 8000000,
+    "ratingAvg": 4.5,
+    "downloads": 773,
+    "ratings": [
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 600000 },
+      { "name": "3 star", "count": 1400000 },
+      { "name": "4 star", "count": 2600000 },
+      { "name": "5 star", "count": 3400000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/rGSxwy2k/alexander-shatov-71-Qk8-ODIBko-unsplash.jpg",
+    "title": "Instagram",
+    "companyName": "Meta",
+    "id": 3,
+    "description": "Photo & video sharing social network.",
+    "size": 85,
+    "reviews": 10000000,
+    "ratingAvg": 4.4,
+    "downloads": 817,
+    "ratings": [
+      { "name": "1 star", "count": 500000 },
+      { "name": "2 star", "count": 700000 },
+      { "name": "3 star", "count": 1600000 },
+      { "name": "4 star", "count": 3500000 },
+      { "name": "5 star", "count": 4200000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/zHRPZGgq/dima-solomin-u-DH-g-Om6e-A4-unsplash.jpg",
+    "title": "ChatGPT",
+    "companyName": "OpenAI",
+    "id": 4,
+    "description": "AI chatbot for asking questions and generating text.",
+    "size": 120,
+    "reviews": 3000000,
+    "ratingAvg": 4.7,
+    "downloads": 278,
+    "ratings": [
+      { "name": "1 star", "count": 50000 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 900000 },
+      { "name": "5 star", "count": 2250000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/qY9cFmNz/appshunter-io-EBDli9e-Ea-M-unsplash.jpg",
+    "title": "CapCut",
+    "companyName": "Bytedance",
+    "id": 5,
+    "description": "Free video editor with effects, transitions, and music.",
+    "size": 150,
+    "reviews": 4000000,
+    "ratingAvg": 4.3,
+    "downloads": 410,
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 800000 },
+      { "name": "4 star", "count": 1200000 },
+      { "name": "5 star", "count": 1700000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/KjfLT3nr/dima-solomin-3pw-Mu6u-Vs-JI-unsplash.jpg",
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "id": 6,
+    "description": "Cloud-based messaging app focused on speed and security.",
+    "size": 60,
+    "reviews": 2000000,
+    "ratingAvg": 4.4,
+    "downloads": 447,
+    "ratings": [
+      { "name": "1 star", "count": 100000 },
+      { "name": "2 star", "count": 150000 },
+      { "name": "3 star", "count": 400000 },
+      { "name": "4 star", "count": 800000 },
+      { "name": "5 star", "count": 550000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/WWcdzxWP/alexander-shatov-f-Rjjn-N-8njo-unsplash.jpg",
+    "title": "Snapchat",
+    "companyName": "Snap Inc.",
+    "id": 7,
+    "description": "Multimedia messaging app with ephemeral stories.",
+    "size": 110,
+    "reviews": 5000000,
+    "ratingAvg": 1.67,
+    "downloads": 330,
+    "ratings": [
+      { "name": "1 star", "count": 3750000 },
+      { "name": "2 star", "count": 500000 },
+      { "name": "3 star", "count": 300000 },
+      { "name": "4 star", "count": 150000 },
+      { "name": "5 star", "count": 250000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/9mCRWKdm/alexander-shatov-w-qqwn5-O-4-I-unsplash.jpg",
+    "title": "Spotify",
+    "companyName": "Spotify Ltd.",
+    "id": 8,
+    "description": "Music streaming service with millions of tracks.",
+    "size": 100,
+    "reviews": 7000000,
+    "ratingAvg": 4.6,
+    "downloads": 238,
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 700000 },
+      { "name": "4 star", "count": 2000000 },
+      { "name": "5 star", "count": 4000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/tP8DLcSP/alexander-shatov-d4-a-CS3js-Q0-unsplash.jpg",
+    "title": "Twitter",
+    "companyName": "X Corp.",
+    "id": 9,
+    "description": "Microblogging platform for sharing short text updates.",
+    "size": 75,
+    "reviews": 9000000,
+    "ratingAvg": 4.2,
+    "downloads": 650,
+    "ratings": [
+      { "name": "1 star", "count": 800000 },
+      { "name": "2 star", "count": 900000 },
+      { "name": "3 star", "count": 2000000 },
+      { "name": "4 star", "count": 3000000 },
+      { "name": "5 star", "count": 2300000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/wFb4X50B/alexander-shatov-ni-Uk-Im-Zc-SP8-unsplash.jpg",
+    "title": "YouTube",
+    "companyName": "Google",
+    "id": 10,
+    "description": "Video sharing platform with global content creators.",
+    "size": 140,
+    "reviews": 15000000,
+    "ratingAvg": 4.6,
+    "downloads": 2100,
+    "ratings": [
+      { "name": "1 star", "count": 700000 },
+      { "name": "2 star", "count": 900000 },
+      { "name": "3 star", "count": 2000000 },
+      { "name": "4 star", "count": 5500000 },
+      { "name": "5 star", "count": 6500000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/hRMYDks8/mariia-shalabaieva-d64-gh-A-r-H4-unsplash.jpg",
+    "title": "Facebook",
+    "companyName": "Meta",
+    "id": 11,
+    "description": "Global social networking service connecting people.",
+    "size": 110,
+    "reviews": 18000000,
+    "ratingAvg": 4.1,
+    "downloads": 2900,
+    "ratings": [
+      { "name": "1 star", "count": 1200000 },
+      { "name": "2 star", "count": 1500000 },
+      { "name": "3 star", "count": 3000000 },
+      { "name": "4 star", "count": 5000000 },
+      { "name": "5 star", "count": 7300000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/twBXqTyK/mariia-shalabaieva-2h-GE8q-Hip-Fo-unsplash.jpg",
+    "title": "Messenger",
+    "companyName": "Meta",
+    "id": 12,
+    "description": "Messaging app for chats, calls, and media sharing.",
+    "size": 95,
+    "reviews": 7000000,
+    "ratingAvg": 4.3,
+    "downloads": 900,
+    "ratings": [
+      { "name": "1 star", "count": 500000 },
+      { "name": "2 star", "count": 700000 },
+      { "name": "3 star", "count": 1300000 },
+      { "name": "4 star", "count": 2200000 },
+      { "name": "5 star", "count": 2300000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/GhXVKvM/mariia-shalabaieva-V02us-4r-NE8-unsplash.jpg",
+    "title": "Zoom",
+    "companyName": "Zoom Inc.",
+    "id": 13,
+    "description": "Video conferencing app for meetings and webinars.",
+    "size": 135,
+    "reviews": 6000000,
+    "ratingAvg": 4.5,
+    "downloads": 520,
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 700000 },
+      { "name": "4 star", "count": 1600000 },
+      { "name": "5 star", "count": 3200000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/SwP8HV1S/rubaitul-azad-q-K8-Tu-Z7-T9-N4-unsplash.jpg",
+    "title": "Google Maps",
+    "companyName": "Google",
+    "id": 14,
+    "description": "Navigation and real-time traffic with satellite maps.",
+    "size": 120,
+    "reviews": 11000000,
+    "ratingAvg": 4.7,
+    "downloads": 3100,
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 400000 },
+      { "name": "3 star", "count": 900000 },
+      { "name": "4 star", "count": 3300000 },
+      { "name": "5 star", "count": 6000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/qfnd5T0/rubaitul-azad-Yhg-Kun-Ty-Sks-unsplash.jpg",
+    "title": "Google Drive",
+    "companyName": "Google",
+    "id": 15,
+    "description": "Cloud storage for files, images, and documents.",
+    "size": 105,
+    "reviews": 8500000,
+    "ratingAvg": 4.6,
+    "downloads": 2200,
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 400000 },
+      { "name": "3 star", "count": 900000 },
+      { "name": "4 star", "count": 2700000 },
+      { "name": "5 star", "count": 4200000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/xtJ0d6s0/rubaitul-azad-UTzu-Xp1chy4-unsplash.jpg",
+    "title": "Google Photos",
+    "companyName": "Google",
+    "id": 16,
+    "description": "Cloud photo management with AI organization.",
+    "size": 118,
+    "reviews": 7600000,
+    "ratingAvg": 4.5,
+    "downloads": 1980,
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 350000 },
+      { "name": "3 star", "count": 800000 },
+      { "name": "4 star", "count": 2500000 },
+      { "name": "5 star", "count": 3850000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/sppT808r/dima-solomin-UKAVi-H-h-FMk-unsplash.jpg",
+    "title": "Pinterest",
+    "companyName": "Pinterest Inc.",
+    "id": 17,
+    "description": "Inspiration and idea sharing with image boards.",
+    "size": 88,
+    "reviews": 4500000,
+    "ratingAvg": 4.4,
+    "downloads": 900,
+    "ratings": [
+      { "name": "1 star", "count": 250000 },
+      { "name": "2 star", "count": 400000 },
+      { "name": "3 star", "count": 700000 },
+      { "name": "4 star", "count": 1600000 },
+      { "name": "5 star", "count": 1800000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/hR6tP3vL/appshunter-io-Rv-Azjmys-KYk-unsplash.jpg",
+    "title": "Reddit",
+    "companyName": "Reddit Inc.",
+    "id": 18,
+    "description": "Community-based discussions on every topic.",
+    "size": 80,
+    "reviews": 3900000,
+    "ratingAvg": 4.3,
+    "downloads": 500,
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 700000 },
+      { "name": "4 star", "count": 1300000 },
+      { "name": "5 star", "count": 1400000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/HTjDZ4dq/boliviainteligente-v-YM4y-Kn-D0-NU-unsplash.jpg",
+    "title": "Disney+",
+    "companyName": "Disney",
+    "id": 19,
+    "description": "Streaming platform with Disney, Marvel, and Pixar shows.",
+    "size": 150,
+    "reviews": 3200000,
+    "ratingAvg": 4.6,
+    "downloads": 670,
+    "ratings": [
+      { "name": "1 star", "count": 100000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "3 star", "count": 600000 },
+      { "name": "4 star", "count": 1100000 },
+      { "name": "5 star", "count": 1200000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/hR2ZBYhX/dima-solomin-s-OU09hn-ONr-Q-unsplash.jpg",
+    "title": "Netflix",
+    "companyName": "Netflix Inc.",
+    "id": 20,
+    "description": "Popular streaming service for movies and TV shows.",
+    "size": 160,
+    "reviews": 9000000,
+    "ratingAvg": 4.6,
+    "downloads": 2500,
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 350000 },
+      { "name": "3 star", "count": 1000000 },
+      { "name": "4 star", "count": 3000000 },
+      { "name": "5 star", "count": 4350000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/dstdnRQ0/jas-rolyn-7-Bq-K0r-CPO5k-unsplash.jpg",
+    "title": "Booking.com",
+    "companyName": "Booking Holdings",
+    "id": 21,
+    "description": "Hotel booking and travel reservation platform.",
+    "size": 85,
+    "reviews": 2800000,
+    "ratingAvg": 4.5,
+    "downloads": 340,
+    "ratings": [
+      { "name": "1 star", "count": 90000 },
+      { "name": "2 star", "count": 140000 },
+      { "name": "3 star", "count": 400000 },
+      { "name": "4 star", "count": 1000000 },
+      { "name": "5 star", "count": 1170000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/3yMdNPB5/appshunter-io-7-Ft-QKd-FXes-unsplash.jpg",
+    "title": "Uber Eats",
+    "companyName": "Uber",
+    "id": 22,
+    "description": "Food delivery app offering meals from local restaurants.",
+    "size": 95,
+    "reviews": 4300000,
+    "ratingAvg": 4.3,
+    "downloads": 620,
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 450000 },
+      { "name": "3 star", "count": 900000 },
+      { "name": "4 star", "count": 1400000 },
+      { "name": "5 star", "count": 1250000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/pjPx4srv/ilgmyzin-m-SIFEZ8-WW1-M-unsplash.jpg",
+    "title": "Duolingo",
+    "companyName": "Duolingo Inc.",
+    "id": 23,
+    "description": "Language learning app with gamified lessons.",
+    "size": 70,
+    "reviews": 5200000,
+    "ratingAvg": 4.8,
+    "downloads": 890,
+    "ratings": [
+      { "name": "1 star", "count": 70000 },
+      { "name": "2 star", "count": 90000 },
+      { "name": "3 star", "count": 300000 },
+      { "name": "4 star", "count": 1500000 },
+      { "name": "5 star", "count": 3230000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/RT1qhZrk/rubaitul-azad-J0eq-Dg-SQDYg-unsplash.jpg",
+    "title": "Amazon",
+    "companyName": "Amazon",
+    "id": 24,
+    "description": "Online marketplace for shopping and digital services.",
+    "size": 155,
+    "reviews": 14000000,
+    "ratingAvg": 4.7,
+    "downloads": 2300,
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 400000 },
+      { "name": "3 star", "count": 900000 },
+      { "name": "4 star", "count": 4500000 },
+      { "name": "5 star", "count": 7800000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/bgC0VTkx/rubaitul-azad-Ra2rr07zu-Fc-unsplash.jpg",
+    "title": "Flipkart",
+    "companyName": "Flipkart Ltd.",
+    "id": 25,
+    "description": "E-commerce shopping platform based in India.",
+    "size": 130,
+    "reviews": 8000000,
+    "ratingAvg": 4.4,
+    "downloads": 1700,
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 450000 },
+      { "name": "3 star", "count": 1300000 },
+      { "name": "4 star", "count": 2500000 },
+      { "name": "5 star", "count": 3450000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/VWZVCB79/shoope.jpg",
+    "title": "Shopee",
+    "companyName": "Shopee Ltd.",
+    "id": 26,
+    "description": "Shopping and online marketplace popular in Asia.",
+    "size": 120,
+    "reviews": 6000000,
+    "ratingAvg": 4.5,
+    "downloads": 1400,
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 600000 },
+      { "name": "4 star", "count": 2000000 },
+      { "name": "5 star", "count": 2900000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/4w7MH9d8/eyestetix-studio-rq-DHdr-KIJs-unsplash.jpg",
+    "title": "Telegram X",
+    "companyName": "Telegram",
+    "id": 27,
+    "description": "Faster experimental version of Telegram.",
+    "size": 55,
+    "reviews": 2000000,
+    "ratingAvg": 4.5,
+    "downloads": 310,
+    "ratings": [
+      { "name": "1 star", "count": 60000 },
+      { "name": "2 star", "count": 80000 },
+      { "name": "3 star", "count": 300000 },
+      { "name": "4 star", "count": 700000 },
+      { "name": "5 star", "count": 1000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co/LytKCdP/mariia-shalabaieva-Jk-Zg8c61-Bo-U-unsplash.jpg",
+    "title": "Notion",
+    "companyName": "Notion Labs",
+    "id": 28,
+    "description": "Notes, tasks, wiki, and project management in one.",
+    "size": 85,
+    "reviews": 2700000,
+    "ratingAvg": 4.8,
+    "downloads": 520,
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 900000 },
+      { "name": "5 star", "count": 1520000 }
+    ]
+  }
+]
