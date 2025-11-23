@@ -19,7 +19,11 @@ const Card = ({ data }) => {
                     <div><button className=' px-3 rounded-lg bg-gray-200 text-green-600 font-semibold' >{data.downloads} M+</button></div>
                     <div   ><button className=' px-3 rounded-lg bg-gray-200 text-orange-500 flex items-center gap-1 font-semibold' ><img src={Star} alt="Star" className='h-3' /> {data.ratingAvg}</button></div>
                 </div>
+
+                
             </div>
+
+            
         </div>
     );
 };

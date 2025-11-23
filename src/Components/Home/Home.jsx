@@ -48,6 +48,11 @@ const Home = () => {
                     }
                 </div>
 
+
+               <div className='text-center mt-6' >
+                 <button className="btn btn-primary">Show All</button>
+               </div>
+
             </div>
 
 
