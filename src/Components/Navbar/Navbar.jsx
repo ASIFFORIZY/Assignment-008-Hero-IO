@@ -1,5 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router';
+import Logo from '../../assets/logo.png'
+import Git from '../../assets/github.png'
 
 const Navbar = () => {
     return (
@@ -18,7 +20,10 @@ const Navbar = () => {
                             <NavLink to='/installation' >Installation</NavLink>
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl">daisyUI</a>
+                    <div className='flex items-center' >
+                        <img src={Logo} alt="" className='max-w-[35px] max-h-[35px] '  />
+                        <a className="btn btn-ghost text-xl bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">HERO.IO</a>
+                    </div>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1 gap-5">
@@ -28,7 +33,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn">Button</a>
+                    <a href='https://github.com/ASIFFORIZY' target="_blank" className="btn bg-gradient-to-br from-[#632EE3] to-[#9F62F2]"><img src={Git} alt="" /> Contribute</a>
                 </div>
             </div>
         </div>
