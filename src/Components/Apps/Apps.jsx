@@ -1,7 +1,5 @@
 import React from 'react';
-import PlayStore from '../../assets/paly store.png';
-import AppStore from '../../assets/app store.png';
-import heroBg from '../../assets/hero.png';
+
 import { useLoaderData } from 'react-router';
 import AllCards from '../AllCards/AllCards';
 
@@ -11,43 +9,7 @@ const Apps = () => {
     return (
         <div className="px-4 md:px-10 lg:px-16 w-full">
 
-            <div className="mt-20 text-center max-w-4xl mx-auto">
-                <h1 className="text-3xl md:text-5xl font-bold">We Build</h1>
-                <h1 className="text-3xl md:text-5xl font-bold">
-                    <span className="text-[#9F62F2]">Productive</span> Apps
-                </h1>
-                <p className="text-[#627382] mt-5 text-sm md:text-base max-w-2xl mx-auto leading-relaxed">
-                    At HERO.IO, we craft innovative apps designed to make everyday
-                    life simpler, smarter, and more exciting. Our goal is to turn
-                    your ideas into digital experiences that truly make an impact.
-                </p>
-
-                <div className="flex flex-wrap gap-3 justify-center mt-15">
-                    <a
-                        href="https://play.google.com/store/games?hl=en"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex items-center gap-2 border px-4 py-2 rounded-md text-gray-600 hover:shadow cursor-pointer"
-                    >
-                        <img src={PlayStore} alt="" className="h-5" />
-                        <p>Google Play</p>
-                    </a>
-
-                    <a
-                        href="https://www.apple.com/app-store/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex items-center gap-2 border px-4 py-2 rounded-md text-gray-600 hover:shadow cursor-pointer"
-                    >
-                        <img src={AppStore} alt="" className="h-5" />
-                        <p>App Store</p>
-                    </a>
-                </div>
-
-            </div>
-            <div className="flex justify-center mt-10">
-                <img src={heroBg} alt="" className="w-full max-w-3xl" />
-            </div>
+            
 
             <div className="mt-20">
                 <h1 className="text-3xl md:text-5xl font-bold text-center">Our All Applications</h1>

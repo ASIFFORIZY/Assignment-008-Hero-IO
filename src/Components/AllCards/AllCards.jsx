@@ -1,5 +1,6 @@
 import React from 'react';
 import Star from '../../assets/star.png'
+import { Download, StarIcon } from 'lucide-react';
 
 const Card = ({ appData }) => {
     return (
@@ -22,12 +23,10 @@ const Card = ({ appData }) => {
 
 
                 <div className="card-actions justify-between mt-3">
-                    <button className="px-3 py-1 rounded-lg bg-gray-200 text-green-600 font-semibold">
-                        {appData.downloads} M+
-                    </button>
+                    <div><button className=' px-3 rounded-lg bg-gray-200 text-green-600 font-semibold flex gap-1' > <Download className='w-3' ></Download> {appData.downloads}M</button></div>
 
                     <button className="px-3 py-1 rounded-lg bg-gray-200 text-orange-500 flex items-center gap-1 font-semibold">
-                        <img src={Star} alt="Star" className="h-3" />
+                        <StarIcon className='w-4'></StarIcon>
                         {appData.ratingAvg}
                     </button>
                 </div>

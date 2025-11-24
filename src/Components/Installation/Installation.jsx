@@ -32,9 +32,9 @@ const Installation = () => {
                     <div >
                         <div className='min-w-0'><h1 className='text-lg font-semibold truncate'>Forest</h1></div>
                         <div className='flex gap-2 lg:gap-5 items-center text-sm mt-1 flex-wrap' >
-                            <div className='flex items-center gap-1' ><Download className='w-4' ></Download><h1> 9M</h1></div>
-                            <div className='flex items-center gap-1'> <StarIcon className='w-4' ></StarIcon><p>5</p></div>
-                            <p>288 MB</p>
+                            <div className='flex items-center gap-1 text-green-600 ' ><Download className='w-4' ></Download><h1> 9M</h1></div>
+                            <div className='flex items-center gap-1 text-orange-500'> <StarIcon className='w-4' ></StarIcon><p>5</p></div>
+                            <p className='text-red-500'>288 MB</p>
                         </div>
                     </div>
                 </div>
