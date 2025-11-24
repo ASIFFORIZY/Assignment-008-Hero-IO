@@ -12,7 +12,7 @@ const Card = ({ data }) => {
                 />
             </div>
             <div className="card-body">
-                <h2 className="card-title">{data.title}</h2>
+                <h2 className="card-title">{data.title}</h2>  
                 <p>{data.description}</p>
                 
                 <div className="card-actions justify-between mt-3">
