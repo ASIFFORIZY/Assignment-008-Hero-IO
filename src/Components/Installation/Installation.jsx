@@ -1,9 +1,13 @@
-import React from 'react';
+
 import Star from '../../assets/logo.png'
 import { Download, StarIcon } from 'lucide-react';
 
 
 const Installation = () => {
+
+
+
+
     return (
         <div>
 
@@ -16,11 +20,13 @@ const Installation = () => {
             <div  className='flex items-center justify-between mt-10 flex-wrap gap-3'  >
                 <div><h1 className='font-bold text-lg md:text-xl' >1 Apps Found</h1></div>
                 <div>
-                    <select defaultValue="Pick a color" className="select w-40 ">
-                        <option disabled={true}>Sort By Size</option>
-                        <option>Low To High</option>
-                        <option>High to low</option>
-                    </select>
+                    <details className="dropdown">
+  <summary className="btn m-1">Sort by Size:</summary>
+  <ul className="menu dropdown-content bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
+    <li><a >Low To High</a></li>
+    <li><a  >High To Low</a></li>
+  </ul>
+</details>
                 </div>
             </div>
 
@@ -32,8 +38,8 @@ const Installation = () => {
                     <div >
                         <div className='min-w-0'><h1 className='text-lg font-semibold truncate'>Forest</h1></div>
                         <div className='flex gap-2 lg:gap-5 items-center text-sm mt-1 flex-wrap' >
-                            <div className='flex items-center gap-1 text-green-600 ' ><Download className='w-4' ></Download><h1> 9M</h1></div>
-                            <div className='flex items-center gap-1 text-orange-500'> <StarIcon className='w-4' ></StarIcon><p>5</p></div>
+                            <div className='flex items-center gap-1 text-green-600 ' ><Download className='w-3' ></Download><h1> 9M</h1></div>
+                            <div className='flex items-center gap-1 text-orange-500'> <StarIcon className='w-3' ></StarIcon><p>5</p></div>
                             <p className='text-red-500'>288 MB</p>
                         </div>
                     </div>

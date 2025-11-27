@@ -18,7 +18,7 @@ const Card = ({ data }) => {
                 
                 <div className="card-actions justify-between mt-3">
                     <div><button className=' px-3 rounded-lg bg-gray-200 text-green-600 font-semibold flex gap-1' > <Download className='w-3' ></Download> {data.downloads}M</button></div>
-                    <div   ><button className=' px-3 rounded-lg bg-gray-200 text-orange-500 flex items-center gap-1 font-semibold' ><StarIcon className='w-4'></StarIcon>{data.ratingAvg}</button></div>
+                    <div   ><button className=' px-3 rounded-lg bg-gray-200 text-orange-500 flex items-center gap-1 font-semibold' ><StarIcon className='w-3 '></StarIcon>{data.ratingAvg}</button></div>
                 </div>
 
                 

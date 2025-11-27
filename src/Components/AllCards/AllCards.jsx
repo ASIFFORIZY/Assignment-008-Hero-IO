@@ -26,7 +26,7 @@ const Card = ({ appData }) => {
                     <div><button className=' px-3 rounded-lg bg-gray-200 text-green-600 font-semibold flex gap-1' > <Download className='w-3' ></Download> {appData.downloads}M</button></div>
 
                     <button className="px-3 py-1 rounded-lg bg-gray-200 text-orange-500 flex items-center gap-1 font-semibold">
-                        <StarIcon className='w-4'></StarIcon>
+                        <StarIcon className='w-3'></StarIcon>
                         {appData.ratingAvg}
                     </button>
                 </div>

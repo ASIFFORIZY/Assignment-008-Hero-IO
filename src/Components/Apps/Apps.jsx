@@ -6,6 +6,7 @@ import AllCards from '../AllCards/AllCards';
 const Apps = () => {
     const publicData = useLoaderData();
 
+
     return (
         <div className="px-4 md:px-10 lg:px-16 w-full">
 

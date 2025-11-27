@@ -20,10 +20,10 @@ const Navbar = () => {
                             <NavLink to='/installation' >Installation</NavLink>
                         </ul>
                     </div>
-                    <div className='flex items-center' >
+                    <NavLink to='/' className='flex items-center' >
                         <img src={Logo} alt="" className='max-w-[35px] max-h-[35px] '  />
-                        <a className="btn btn-ghost text-xl bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">HERO.IO</a>
-                    </div>
+                        <h1 className="btn btn-ghost text-xl bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent" >HERO.IO</h1>
+                    </NavLink>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1 gap-5">
