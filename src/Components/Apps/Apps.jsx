@@ -1,10 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import { useLoaderData } from 'react-router';
 import AllCards from '../AllCards/AllCards';
 
 const Apps = () => {
     const publicData = useLoaderData();
+    const [search, setSearch] = useState("");
+
+    const filteredData = publicData.filter(item => item.title.toLowerCase().includes(search.toLowerCase()));
 
 
     return (
@@ -20,7 +23,7 @@ const Apps = () => {
 
                 <div className="flex flex-col md:flex-row justify-between mt-10 items-center gap-4 mx-2">
                     <h1 className="font-bold text-lg md:text-xl">
-                        ({publicData.length}) Apps Found
+                        ({filteredData.length}) Apps Found
                     </h1>
 
                     <label className="input flex items-center gap-2 border px-4 py-2 rounded-md w-full md:w-72">
@@ -36,18 +39,21 @@ const Apps = () => {
                                 <path d="m21 21-4.3-4.3"></path>
                             </g>
                         </svg>
+                        
                         <input
                             type="search"
                             required
                             className="w-full outline-none"
                             placeholder="Search"
+                            value={search}
+                            onChange={(e)=> setSearch(e.target.value)}
                         />
                     </label>
                 </div>
             </div>
 
             <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-                {publicData.map(appData => (
+                {filteredData.map(appData => (
                     <AllCards key={appData.id} appData={appData} />
                 ))}
             </div>
