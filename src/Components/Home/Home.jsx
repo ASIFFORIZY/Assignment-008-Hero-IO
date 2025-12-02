@@ -6,8 +6,7 @@ import AppStore from '../../assets/app store.png';
 import heroBg from '../../assets/hero.png';
 
 const Home = () => {
-    const Data = useLoaderData();
-    console.log(Data)
+    const allData = useLoaderData();
     return (
         <div >
 
@@ -85,12 +84,12 @@ const Home = () => {
                 <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6' >
 
                     {
-                        Data.map(data => <Card key={data.id} data={data} ></Card>)
+                        allData?.map(data => <Card key={data.id} data={data} ></Card>)
                     }
                 </div>
 
 
-                <div className='text-center mt-6' >
+                <div className='text-center mt-20' >
                     <NavLink  to='/apps' onClick={() => window.scrollTo(0, 0)} ><button className="btn btn-primary">Show All</button></NavLink>
                 </div>
 

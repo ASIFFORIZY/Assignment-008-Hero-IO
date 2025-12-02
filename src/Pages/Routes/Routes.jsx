@@ -7,6 +7,8 @@ import ErrorPage from '../ErrorPage/ErrorPage';
 import Home from '../../Components/Home/Home';
 import Apps from '../../Components/Apps/Apps';
 import Installation from '../../Components/Installation/Installation';
+import About from '../../Components/AppsDetails/AppsDetails';
+import AppsDetails from '../../Components/AppsDetails/AppsDetails';
 
 export const router = createBrowserRouter([
     {
@@ -18,7 +20,8 @@ export const router = createBrowserRouter([
                 index: true,
                 loader:() => fetch('/HomeData.json'),
                 path:'/',
-                Component : Home
+                Component : Home,
+                hydrateFallbackElement: <span className="loading loading-spinner loading-xl"></span>
             },
 
             {
@@ -30,6 +33,13 @@ export const router = createBrowserRouter([
             {
                 path: '/installation',
                 Component : Installation
+            },
+
+            {
+                path: '/apps/:id',
+                loader: () => fetch("/PublicData.json"),
+                Component: AppsDetails,
+
             }
         
         ]

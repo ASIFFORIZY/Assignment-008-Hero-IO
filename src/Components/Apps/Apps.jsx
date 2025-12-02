@@ -4,7 +4,7 @@ import { useLoaderData } from 'react-router';
 import AllCards from '../AllCards/AllCards';
 
 const Apps = () => {
-    const publicData = useLoaderData();
+    const publicData = useLoaderData(); 
     const [search, setSearch] = useState("");
 
     const filteredData = publicData.filter(item => item.title.toLowerCase().includes(search.toLowerCase()));
