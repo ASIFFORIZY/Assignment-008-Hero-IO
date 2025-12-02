@@ -19,17 +19,17 @@ const AppsDetails = () => {
                 <div className='flex-shrink-0'>
                     <img src={singleApp.image} alt=""  className='w-full max-w-xs md:max-w-[280px] h-auto object-cover rounded-lg mx-auto md:mx-0'  />
                 </div>
-                <div lassName='flex-1'>
+                <div lassName='flex-1' className='w-full' >
                     <div>
-                        <div className='flex flex-col md:flex-row md:items-center gap-2 md:gap-4 text-lg md:text-2xl font-semibold'>
-                            <h1  >{singleApp.title}  </h1>
-                            <p className='text-base md:text-lg md:ml-2' > {singleApp.description}</p>
+                        <div className='flex  flex-col md:flex-row md:items-center gap-2 md:gap-4 text-lg md:text-2xl font-semibold'>
+                            <h1 className='text-base md:text-lg ' >{singleApp.title}</h1>
+                            <p className='text-base md:text-lg ' >{singleApp.description}</p>
                         </div>
                         <p className='mt-2 text-sm md:text-base'>Developed by :<span className='text-[#632EE3]' > {singleApp.companyName}</span></p>
                     </div>
                     <hr className='my-5 w-full' />
 
-                    <div className='flex items-center sm:items-start justify-between gap-5 sm:gap-10 p-5'>
+                    <div className='flex items-center sm:items-start gap-5 sm:gap-10 p-5'>
 
                         <div className='flex flex-col items-center'>
                             <img src={Download} alt="" className='w-10 h-10 md:w-12 md:h-12'/>
