@@ -14,42 +14,42 @@ const AppsDetails = () => {
     const singleApp = data.find(book => book.id === appId)
     const reviews = singleApp.reviews / 1000000;
     return (
-        <div className='p-20'>
-            <div className='flex gap-10'>
-                <div>
-                    <img src={singleApp.image} alt="" className=' w-70 h-70 object-cover rounded-lg' />
+        <div className='p-5 md:p-10'>
+            <div className='flex flex-col md:flex-row gap-5 md:gap-10'>
+                <div className='flex-shrink-0'>
+                    <img src={singleApp.image} alt=""  className='w-full max-w-xs md:max-w-[280px] h-auto object-cover rounded-lg mx-auto md:mx-0'  />
                 </div>
-                <div className=' w-full'>
+                <div lassName='flex-1'>
                     <div>
-                        <div className='flex items-center text-2xl font-semibold'>
+                        <div className='flex flex-col md:flex-row md:items-center gap-2 md:gap-4 text-lg md:text-2xl font-semibold'>
                             <h1  >{singleApp.title}  </h1>
-                            <p> : {singleApp.description}</p>
+                            <p className='text-base md:text-lg md:ml-2' > {singleApp.description}</p>
                         </div>
-                        <p className='mt-2'>Developed by <span className='text-[#632EE3]' > {singleApp.companyName}</span></p>
+                        <p className='mt-2 text-sm md:text-base'>Developed by :<span className='text-[#632EE3]' > {singleApp.companyName}</span></p>
                     </div>
-                    <hr className='mt-5' />
+                    <hr className='my-5 w-full' />
 
-                    <div className='flex items-center p-5 gap-10'>
+                    <div className='flex items-center sm:items-start justify-between gap-5 sm:gap-10 p-5'>
 
-                        <div>
-                            <img src={Download} alt="" />
-                            <p>Downloads</p>
-                            <p className='text-3xl' >{singleApp.downloads}M</p>
+                        <div className='flex flex-col items-center'>
+                            <img src={Download} alt="" className='w-10 h-10 md:w-12 md:h-12'/>
+                            <p className='text-sm md:text-base mt-1'>Downloads</p>
+                            <p className='text-2xl md:text-3xl font-semibold' >{singleApp.downloads}M</p>
                         </div>
-                        <div>
-                            <img src={Star} alt="" />
-                            <p>Average Ratings</p>
-                            <p className='text-3xl'  >{singleApp.ratingAvg}</p>
+                        <div className='flex flex-col items-center'>
+                            <img src={Star} alt="" className='w-10 h-10 md:w-12 md:h-12'/>
+                            <p className='text-sm md:text-base mt-1' >Average Ratings</p>
+                            <p className='text-2xl md:text-3xl font-semibold'  >{singleApp.ratingAvg}</p>
                         </div>
-                        <div>
-                            <img src={Review} alt="" />
-                            <p>Total Reviews </p>
-                            <p className='text-3xl'  >{reviews}M</p>
+                        <div className='flex flex-col items-center'>
+                            <img src={Review} alt="" className='w-10 h-10 md:w-12 md:h-12' />
+                            <p className='text-sm md:text-base mt-1'>Total Reviews </p>
+                            <p className='text-2xl md:text-3xl font-semibold'  >{reviews}M</p>
                         </div>
 
                     </div>
-                    <div>
-                        <button className="btn btn-active btn-primary">Install Now ({singleApp.size} MB)</button>
+                    <div className='mt-5 text-center md:text-left'>
+                        <button className="btn btn-active btn-primary md:w-auto ">Install Now ({singleApp.size} MB)</button>
                     </div>
                 </div>
             </div>
@@ -62,8 +62,9 @@ const AppsDetails = () => {
 
             <hr className='my-8' />
 
-            <h1 className='text-xl font-semibold mb-2'>Description</h1>
-            {singleApp.des}
+            <h1 className='text-xl md:text-2xl font-semibold mb-2'>Description</h1>
+            <p className='text-sm md:text-base text-justify'>{singleApp.des}</p>
+            
         </div>
     );
 };
